@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DojoWeather</title>
+</head>
+
+<body>
+    <nav>
+        <div id="centeredNav">
+            <div id="leftNav">
+                <h1 id="navh1">DojoWeather</h1>
+            </div>
+
+
+            <div id="rightNav">
+                <h3 onclick="alert('...Loading weather report...')">Burbank</h3>
+                <h3 onclick="alert('...Loading weather report...')">Chicago</h3>
+                <h3 onclick="alert('...Loading weather report...')">Dallas</h3>
+            </div>
+        </div>
+    </nav>
+    <!--end of nav bar-->
+    <div id="mainContent">
+        <div class="headerBar">
+            <div id="cityName">
+                <h1>San Jose</h1>
+            </div>
+            <div id="temp">
+                <p>Show temperature in<select>
+                        <option>C</option>
+                        <option>F</option>
+                    </select> </p>
+            </div>
+        </div>
+
+        <!--end of header-->
+        <div class="container">
+            <div class="weatherBox" id="box1">
+                <div id="b1Top">
+                    <h2>Today</h2>
+                    <img id="todayImg" src="assets\some_rain.png" alt="some_rain">
+                    <span>some rain</span>
+                </div>
+                <br>
+                <div class="temps" id="b1Bot">
+                    <span class="high" id="todayHigh">24°</span>
+                    <span class="low" id="todayLow">18°</span>
+                </div>
+            </div>
+
+            <div class="weatherBox" id="box2">
+                <div id="b2Top">
+                    <h2>Tomorrow</h2>
+                    <img id="todayImg" src="assets\some_sun.png" alt="some_rain">
+                    <span>some sun</span>
+                </div>
+                <br>
+                <div class="temps" id="b2Bot">
+                    <span class="high" id="todayHigh">27°</span>
+                    <span class="low" id="todayLow">19°</span>
+                </div>
+            </div>
+
+            <div class="weatherBox" id="box3">
+                <div id="b3Top">
+                    <h2>Friday</h2>
+                    <img id="friImg" src="assets\some_sun.png" alt="some_sun">
+                    <span>some sun</span>
+                </div>
+                <br>
+                <div class="temps" id="b3Bot">
+                    <span class="high" id="todayHigh">22°</span>
+                    <span class="low" id="todayLow">19°</span>
+                </div>
+            </div>
+
+            <div class="weatherBox" id="box3">
+                <div id="b3Top">
+                    <h2>Saturday</h2>
+                    <img id="satImg" src="assets\some_rain.png" alt="some_rain">
+                    <span>some clouds</span>
+                </div>
+                <br>
+                <div class="temps" id="b3Bot">
+                    <span class="high" id="todayHigh">26°</span>
+                    <span class="low" id="todayLow">21°</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="cookies">
+            <div id="cookieContent">
+                <img id="cokimg" src="assets\cookie.png" alt="cookies img">
+                <div id="cookText">
+                    <h4 id="cookTopText">Stop! Cookie time</h4>
+                    <span>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social
+                        media features and to analyse out traffic. <a href="#">Read more...</a> </span>
+                </div>
+            </div>
+            <div id="btndivide">
+                <button type="button" id="btn" onclick="byebtn()">I Accept</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

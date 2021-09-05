@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(83, 169, 226);
+    color: white;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#centeredNav{
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftNav{
+    display: flex;
+    height: 50px;
+    width: 400px;
+}
+
+#rightNav{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.headerBar{
+    width: 100%;
+    height: 75px;
+    border-bottom: 2px black solid;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+#mainContent{
+    margin: 0px auto;
+    margin-right: 78px;
+    margin-left: 78px;
+}
+
+#cityName{
+    display: flex;
+    text-align: center;
+}
+
+#temp{
+    justify-content: space-between;
+}
+
+.container{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+.weatherBox{
+    background-color: rgb(187, 187, 187);
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 480px;
+    width: 148px;
+    margin: 33px auto;
+    flex-direction: column;
+}
+
+#box1{
+    margin: auto;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 480px;
+}
+
+#todayImg{
+    height: 141px;
+    width: 141px;
+}
+
+#b1Top{
+    margin: auto;
+}
+
+#b1Bot{
+    margin: auto;
+}
+
+.temps{
+    font-size: 20px;
+    
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: blue;
+}
+
+#box2{
+    margin: auto;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 480px;
+}
+
+#tomImg{
+    height: 141px;
+    width: 141px;
+}
+
+#b2Top{
+    margin: auto;
+}
+
+#b2Bot{
+    margin: auto;
+}
+
+#box3{
+    margin: auto;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 480px;
+}
+
+#friImg{
+    height: 141px;
+    width: 141px;
+}
+
+#b3Top{
+    margin: auto;
+}
+
+#b3Bot{
+    margin: auto;
+}
+
+
+#box4{
+    margin: auto;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 480px;
+}
+
+#satImg{
+    height: 141px;
+    width: 141px;
+}
+
+#b4Top{
+    margin: auto;
+}
+
+#b4Bot{
+    margin: auto;
+}
+
+#cookies{
+    width: 100%;
+    margin-top: 30px;
+    background-color: grey;
+    border: black 3px solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+}
+
+
+#cookieContent{
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+#cookText{
+    width: 40%;
+    margin: 19px;
+}
+
+#cokimg{
+    height: 25%;
+    width: 14%;
+}
+
+#btn{
+    background-color: rgb(72, 72, 197);
+    height: 46px;
+    width: 174px;
+    font-size: 25px;
+}

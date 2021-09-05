@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(110, 104, 110);
+    display: inline-block;
+    width: 200px;
+
+}
+h1{
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-emphasis: 50%;
+    text-decoration: underline;
+    height: 100px;
+    width: 00px;
+    margin-left: 150px;
+}
+
+div{
+    height: 950px;
+    width: 300px;
+    display: inline-block;
+
+}
+
+
+#group1{
+    height: 200px;
+    width: 425px;
+    background-color: rgb(0, 0, 0);
+    
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+#group2{
+    height: 200px;
+    width: 425px;
+    background-color: rgb(46, 145, 62);
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+#group3{
+    height: 200px;
+    width: 425px;
+    background-color: rgb(247, 7, 7);
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+h3{
+    text-align: center;
+    margin-left: 10px;
+}

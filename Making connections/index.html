@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!--nav start-->
+            <nav>
+
+                <div class="nav">
+                    <h1 class="nav-title">Profile</h1>
+                    <ul class="nav-links">
+                        <div>
+
+                            <li><a href="#">Home__</a></li>
+
+                        </div>
+                        <br>
+                        <div>
+
+                            <li><a href="#" class="active">My Profile__</a></li>
+                        </div>
+
+                        <div>
+                            <li><a href="#">Find Connections</a></li>
+                        </div>
+                        <div>
+                            <li><button class="btn">Sign Out</button></li>
+                        </div>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <!--nav end-->
+        </header>
+
+
+
+        <div id="leftHalf">
+            <!--left half start-->
+
+            <div class="usercard">
+                <!--user card start-->
+
+                <div id="headerbar">
+
+                </div>
+
+                <div id="usercardContent">
+                    <div id="propic">
+                        <img class="propic"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                    </div>
+
+                    <h1 id="name">Jane Doe</h1>
+                    <br>
+
+                    <h3 class="location">Seattle</h3>
+                    <br>
+
+                    <p class="userinfo">Developer / Engineer / Problem Solver</p>
+                    <p class="userinfo">Master of shadows and the Internet!</p>
+
+                    <br>
+
+                    <img class="cog" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/cog-1818573-1541441.png"
+                        alt="">
+                    <!-- <p class="edit"><a href="#">edit profile</a></p> -->
+                    <button id="edit" onclick="nameChange()"> Edit Profile </button>
+                </div>
+
+            </div>
+
+
+            <!--usercard end-->
+
+
+
+            <!--education start-->
+            <div id="education">
+                <div id="eduBox">
+                    <h2>Education</h2>
+                </div>
+                <div id="eduInfo">
+                    <h1>Coding Dojo Online Full-Time</h1>
+                    <h4>June 2021 - September 2021</h4>
+                </div>
+
+            </div>
+
+        </div>
+        <!--education end-->
+        <!--left half end-->
+
+
+        <!--connection request start-->
+        <!--right half start-->
+        <div class="rightHalf">
+            <div class="connections">
+
+                <div class="conn">
+
+                    <div id="connheader">
+                        <h3 id="number2" class="number2">2</h1>
+                            <h1 class="requests">Connection Requests</h1>
+
+                    </div>
+
+
+                    <div id="toddprofile">
+                        <img class="propictodd"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                        <h3 class="todd">Todd E.</h3>
+                        <img class="accept" onclick="addOne()" id="accept" src="accept-circle.png" alt=""> <img
+                            class="close" id="close" onclick="hide('#toddprofile')" src="close-circle.png" alt="">
+                        <br>
+
+                    </div>
+
+                    <div id="philprofile">
+
+                        <img class="propicphil"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                        <h3 class="phil">Phil R.</h3>
+                        <img class="accept" id="accept2" onclick="aaddOne()" src="accept-circle.png" alt="">
+                        <img class="close" id="close2" onclick="hide2('#philprofile')" src="close-circle.png" alt="">
+
+                        <br>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <!--connection requst end-->
+
+
+
+            <!--your connections start-->
+            <div class="yourcons">
+
+                <div class="uconn">
+
+                    <div id="uconBox">
+
+                        <h3 class="number500" id="number">500</h1>
+                            <h1 class="yourconnections">Your Connections</h1>
+
+                    </div>
+
+
+
+
+                    <div id="adrienProfile">
+                        <img class="propicadrien"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                        <h3 class="adrien">Adrien D.</h3>
+                    </div>
+                    <br>
+                    <div id="anneProfile">
+                        <img class="propicanne"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                        <h3 class="anne">Anne J.</h3>
+                    </div>
+                    <br>
+                    <div id="alayneProfile">
+                        <img class="propicalayne"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                        <h3 class="alayne">Alayne T.</h3>
+                    </div>
+                    <br>
+                    <div id="arryProfile">
+                        <img class="propicarry"
+                            src="https://s3.amazonaws.com/pure_charity/uploads/production/avatar/image/179257/large_blank-profile-picture-973460_1280.png"
+                            alt="blank profile picture">
+                        <h3 class="arry">Arry Y.</h3>
+                    </div>
+                    <br>
+
+                    <div id="more">
+                        <p><a class="viewBtn" href="#">View More</a></p>
+                    </div>
+
+                    <!--your connection end-->
+                    <!--right half end-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

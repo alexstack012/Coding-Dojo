@@ -1,0 +1,50 @@
+*{
+    background-color: burlywood;
+}
+
+.col{
+    background-color: aqua;
+    height: 50px;
+    width: 25%;
+    display:flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.col-2{
+    background-color: aqua;
+    height: 50px;
+    width: 33%;
+    display:flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.col-3{
+    background-color: aqua;
+    height: 50px;
+    width: 66%;
+    display:flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.col-4{
+    background-color: aqua;
+    height: 50px;
+    width: 40%;
+    display:flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.col-5{
+    background-color: aqua;
+    height: 50px;
+    width: 60%;
+    display:flex;
+    margin: 20px;
+    text-align: center;
+}
+
+

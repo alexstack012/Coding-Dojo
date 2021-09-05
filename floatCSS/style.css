@@ -1,0 +1,38 @@
+.Search {
+    background-color: #c6cac9;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #04AA6D;
+    border-color: #04AA6D;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.plusplus{
+    background-color: rgb(46, 167, 120);
+    color: white;
+    border: 10px solid;
+    border-radius: 60%;
+    height: 50px;
+    width: 50px;
+}
+
+.create{
+    height: 30px;
+    width: 200px;
+    background-color: #285be7;
+    border: 3px solid;
+    color: #ffffff;
+    border-color: #020202;
+    box-shadow: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}

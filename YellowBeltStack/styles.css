@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#logo{
+    background-color: rgb(93, 231, 197);
+    margin-top: 10px;
+}
+
+#navTitle{
+    font-family: cursive;
+    font-size: 35px;
+}
+
+#searchBar{
+    border: 1px black solid;
+    border-radius: 1%;
+    background-color: lightgrey;
+    height: 39px;
+    display: flex;
+}
+
+#signIn{
+    font-size: 22px;
+}
+
+#cartImg{
+    height: 34px;
+}
+
+#linkBar{
+    border-bottom: black 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tagline{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mainContent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#leftMain{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    margin-right: 120px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+#leftMainText{
+    background-color: rgb(93, 231, 197);
+    display: flex;
+    flex-direction: column;
+    width: 167px;
+    height: 324px;
+
+}
+
+#discover{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#leftTopText{
+    align-items: flex-start;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#arrow{
+    margin-top: 134px;
+}
+
+#rightMain{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 26px;
+}
+
+#rightMainBot{
+    margin: 0px;
+}
+
+#rightBotText{
+    margin: 0px;
+    background-color: rgb(93, 231, 197);
+    text-align: center;
+    width: 326px;
+    color: white;
+    height: 50px;
+    margin-top: 32px;
+}
+
+
+#bottom{
+    background-color: rgb(93, 231, 197);
+    height: 275px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 159px;
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+
+
+#botImg{
+    margin: 0px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+#asdf{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#cookies{
+    background-color: rgb(230, 223, 223);
+    width: 93%;
+    height: 14%;
+    border: black 2px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 773px;
+    left: 53px;
+}
+
+
+#btn{
+    color: white;
+    background-color: rgb(93, 231, 197);
+    border: black 1px solid;
+    height: 35px;
+    width: 67px;
+}
